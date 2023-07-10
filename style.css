@@ -26,6 +26,10 @@ p {
     font-size: 35px;
     font-weight: 900;
 }
+.peraPerfect {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* Header Classed */
 header {
@@ -119,13 +123,18 @@ header > img {
 }
 .Support {
     margin-top: 100px;
+
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .SupportBox {
+    /* margin-left: 10%;
+    margin-right: 10%;   */
+    width: 80%;
+    height: 250px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     background: #f4f4f4;
@@ -176,37 +185,46 @@ a {
     border-radius: 5px;
     color: white;
 }
+.hotDeal-img {
+    width: fit-content;
+    height: fit-content;
+}
 /* instagram */
 .instagram {
-    margin-left: 10%;
+    /* margin-left: 10%;
     margin-right: 10%;
     padding-left: 40%;
-    padding-right: 40%;
+    padding-right: 40%; */
     /* width: 60vw; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* display: flex;    */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
     /* width: fit-content; */
 }
 .instagram > div {
-    width: fit-content;
+    /* width: fit-content; */
 }
-.peraPerfect {
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 .instagramImgs {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    /* width: 8; */
+    /* max-width: 60vw; */
     /* width: fit-content; */
+    margin-left: 100px;
 }
 .instagramImg {
     /* display: block; */
-    /* width: 90%; */
-    margin: 10px;
+
+    width: 70%;
+    height: 70%;
+
+    /* margin: 10px; */
+}
+.instagramImg1 {
+    /* width: 70%;
+    height: 70%; */
 }
 .email-container {
     margin-top: 100px;
@@ -250,7 +268,6 @@ a {
     border: none;
     border-radius: 5px;
     color: white;
-
 }
 footer {
     margin-top: 100px;
@@ -264,14 +281,14 @@ footer {
     background: #111010;
 }
 footer h1 {
-    color: white ;
+    color: white;
     text-align: center;
 }
-.footerText{
-    color: rgba(255, 255, 255, 0.90);
+.footerText {
+    color: rgba(255, 255, 255, 0.9);
     text-align: center;
 }
 .copy {
     font-size: smaller;
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.4);
 }
