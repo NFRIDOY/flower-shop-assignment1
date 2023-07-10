@@ -261,14 +261,15 @@ footer {
     align-items: center;
     padding-top: 40px;
     padding-bottom: 10px;
-}
-footer, h1,p {
     background: #111010;
+}
+footer h1 {
     color: white ;
     text-align: center;
 }
 .footerText{
     color: rgba(255, 255, 255, 0.90);
+    text-align: center;
 }
 .copy {
     font-size: smaller;
