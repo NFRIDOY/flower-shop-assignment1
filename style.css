@@ -44,7 +44,7 @@ span:hover {
 }
 
 /* Header Classed */
-header {
+#header {
     height: 100vh;
     color: black;
     display: flex;
@@ -81,7 +81,7 @@ a {
     border-radius: 5px;
     color: white;
 }
-header > img {
+#header > img {
     height: 100%;
 }
 
